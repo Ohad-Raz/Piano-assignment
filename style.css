@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(79, 224, 224);
+}
+
+.black {
+  height: 35x;
+  width: 120px;
+  background-color: rgb(0, 0, 0);
+  border: 2px outset black;
+  margin: -20px;
+  padding: 15px;
+  border-radius: 8px;
+  margin-left: 2.3px;
+  position: absolute;
+}
+
+.white {
+  height: 65px;
+  width: 260px;
+  background-color: azure;
+  border: 2px outset black;
+  border-radius: 8px;
+  margin: 1px;
+}
+
+section {
+  transform: rotate(90deg);
+
+  transform-origin: center;
+}
