@@ -56,7 +56,6 @@ section {
   color: rgba(0, 0, 0, 0);
   border: 15px solid rgba(0, 0, 255, 0);
   padding: 30px 29px;
-
   padding-top: 170px;
   padding-left: 7px;
 }
@@ -80,6 +79,8 @@ section {
   border-radius: 8px;
   margin-left: 2.3px;
   position: absolute;
+  box-shadow: 5px 5px 8px rgba(25, 29, 35, 0.181),
+    10px 10px 8px rgba(42, 48, 59, 0.126), 15px 15px 8px rgba(33, 40, 53, 0.153);
 }
 
 .white {
@@ -88,14 +89,18 @@ section {
   background-color: ivory;
   border: 2px outset black;
   border-radius: 8px;
+  box-shadow: 5px 5px 8px rgba(25, 29, 35, 0.181),
+    10px 10px 8px rgba(42, 48, 59, 0.126), 15px 15px 8px rgba(33, 40, 53, 0.153);
 }
 
 .white:hover {
-  box-shadow: 5px 5px 8px rgba(25, 29, 35, 0.863),
-    10px 10px 8px rgba(42, 48, 59, 0.584), 15px 15px 8px rgba(33, 40, 53, 0.529);
+  box-shadow: 5px 5px 8px rgba(25, 29, 35, 0.915),
+    10px 10px 8px rgba(42, 48, 59, 0.756), 15px 15px 8px rgba(33, 40, 53, 0.559);
+  transition: 0.3s;
 }
 
 .black:hover {
   box-shadow: 5px 5px 8px rgba(43, 48, 58, 0.849),
     10px 10px 8px rgba(42, 48, 59, 0.514), 15px 15px 8px rgba(33, 40, 53, 0.466);
+  transition: 0.3s;
 }
