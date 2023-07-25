@@ -1,5 +1,9 @@
 body {
   background-color: rgb(79, 224, 224);
+  background-image: url(piano4k.jpg);
+  background-position: top;
+  background-size: 1540px 769px;
+
 }
 
 section {
@@ -113,7 +117,7 @@ p:hover {
 .white {
   height: 65px;
   width: 260px;
-  background-color:rgb(255, 255, 246);
+  background-color:ivory;
   border: 2px outset black;
   border-radius: 8px;
 }
